@@ -2,7 +2,11 @@
   "name": "@sporeball/aster",
   "version": "0.0.0",
   "description": "",
-  "main": "aster.js",
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
+  "exports": "./aster.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/sporeball/Aster/issues"
   },
-  "homepage": "https://github.com/sporeball/Aster#readme"
+  "homepage": "https://github.com/sporeball/Aster#readme",
+  "dependencies": {
+    "escape-string-regexp": "^5.0.0"
+  }
 }
